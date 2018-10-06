@@ -1,4 +1,5 @@
 import React from "react";
+import SAForm from "../SelfAssessForm/SelfAssessForm"
 
 const SelfAssess = () => (
   <div>
@@ -6,6 +7,7 @@ const SelfAssess = () => (
     <p>
       INput or take test
     </p>
+    <SAForm />
   </div>
 );
 

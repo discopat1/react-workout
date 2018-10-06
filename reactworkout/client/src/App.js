@@ -13,10 +13,10 @@ const App = () => (
     <div>
       <NavTabs />
       <Route exact path="/" component={Home} />
-      <Route exact path="/selfassess" component={SelfAssess} />
-      <Route exact path="/userprofile" component={UserProfile} />
-      <Route exact path="/wod" component={Wod} />
-      <Route exact path="/workoutoptions" component={WorkoutOptions} />
+      <Route path="/selfassess" component={SelfAssess} />
+      <Route path="/userprofile" component={UserProfile} />
+      <Route path="/wod" component={Wod} />
+      <Route path="/workoutoptions" component={WorkoutOptions} />
     </div>
   </Router>
 );

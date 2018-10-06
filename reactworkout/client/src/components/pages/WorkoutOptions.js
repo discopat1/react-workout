@@ -2,9 +2,9 @@ import React from "react";
 
 const WorkoutOptions = () => (
   <div>
-    <h1>Profile</h1>
+    <h1>Workout options</h1>
     <p>
-      Some stuff about user
+      pick your stuff
     </p>
   </div>
 );
